@@ -9,5 +9,5 @@ And install Sphinx on your command prompt window, ~\user> pip install sphnix.
 
 See https://www.ingeniumweb.com/blog/post/how-to-install-read-the-docs-in-windows-environment/2441/ for above.
  
-: If you are using Linunx, 
+: If you are using Linux, 
 $ apt-get install python3-sphinx 
