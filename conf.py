@@ -21,14 +21,14 @@ extensions = [
 # we can ignore this so we still can treat other warnings as errors.
 sphinx_tabs_nowarn = True
 
-#if not os.getenv("SPHINX_NO_GDSCRIPT"):
-#    extensions.append("gdscript")
+if not os.getenv("SPHINX_NO_GDSCRIPT"):
+    extensions.append("gdscript")
 
 if not os.getenv("SPHINX_NO_SEARCH"):
     extensions.append("sphinx_search.extension")
 
-#if not os.getenv("SPHINX_NO_DESCRIPTIONS"):
-#    extensions.append("godot_descriptions")
+if not os.getenv("SPHINX_NO_DESCRIPTIONS"):
+    extensions.append("godot_descriptions")
 
 templates_path = ["_templates"]
 
@@ -40,7 +40,7 @@ source_encoding = "utf-8-sig"
 master_doc = "index"
 
 # General information about the project
-project = "mobilgene Adaptive Docs"
+project = "EJKIM-AUTHOR Docs"
 copyright = (
     "2020, EJKIM-AUTHOR"
 )
@@ -50,7 +50,7 @@ author = "EunJung Kim"
 # The short X.Y version
 version = os.getenv("READTHEDOCS_VERSION", "latest")
 # The full version, including alpha/beta/rc tags
-release = '19.11.00.00'
+release = version
 
 # Parse Sphinx tags passed from RTD via environment
 env_tags = os.getenv("SPHINX_TAGS")
@@ -62,19 +62,19 @@ if env_tags is not None:
 # Language / i18n
 
 supported_languages = {
-    "en": "mobilgeneAdaptive (%s) documentation in English",
+    "en": "EJKIM-AUTHOR (%s) documentation in English",
 #    "de": "Godot Engine (%s) Dokumentation auf Deutsch",
 #    "es": "Documentación de Godot Engine (%s) en español",
 #    "fr": "Documentation de Godot Engine (%s) en français",
 #    "fi": "Godot Engine (%s) dokumentaatio suomeksi",
 #    "it": "Godot Engine (%s) documentazione in italiano",
-    "ja": "mobilgeneAdaptive  (%s)の日本語のドキュメント",
-    "ko": "mobilgeneAdaptive  (%s) 문서 (한국어)",
+    "ja": "EJKIM-AUTHOR (%s)の日本語のドキュメント",
+    "ko": "EJKIM-AUTHOR (%s) 문서 (한국어)",
 #   "pl": "Dokumentacja Godot Engine (%s) w języku polskim",
 #    "pt_BR": "Documentação da Godot Engine (%s) em Português Brasileiro",
 #    "ru": "Документация Godot Engine (%s) на русском языке",
 #    "uk": "Документація до Godot Engine (%s) українською мовою",
-    "zh_CN": "mobilgeneAdaptive  (%s) 简体中文文档",
+    "zh_CN": "EJKIM-AUTHOR (%s) 简体中文文档",
 #    "zh_TW": "Godot Engine (%s) 正體中文 (台灣) 文件",
 }
 
@@ -165,7 +165,7 @@ html_js_files = [
 ]
 
 # Output file base name for HTML help builder
-htmlhelp_basename = "mobilgeneAdaptiveDoc"
+htmlhelp_basename = "EJKIM-AUTHORdoc"
 
 # -- Options for reStructuredText parser ----------------------------------
 
@@ -180,8 +180,8 @@ file_insertion_enabled = False
 latex_documents = [
     (
         master_doc,
-        "ejkim-author_Docs.tex",
-        "ejkim-author Documentation",
+        "EJKIM-AUTHOR.tex",
+        "EJKIM-AUTHOR Documentation",
         "EunJung Kim",
         "manual",
     ),

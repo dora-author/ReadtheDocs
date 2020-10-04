@@ -4,7 +4,7 @@ Welcome to EJKIM-AUTHOR's Documentation!
  
  
 **Copyright**
- 2020 EJKIM-AUTHOR All rights reserved.
+ 2020 EJKIM-AUTHOR all rights reserved.
  All rights reserved including intellectual property rights and all rights of disposal, such as copying and passing on to third parties.
  The contents of this document may not be disclosed to any third party without the prior written consent of EJKIM-AUTHOR.
 
@@ -16,11 +16,9 @@ Welcome to EJKIM-AUTHOR's Documentation!
    :caption: General
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Functional Clusters
+
    
-   exec/0_execution_management
+   about/index
 
 
 .. Indices and tables
