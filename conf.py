@@ -13,13 +13,7 @@ needs_sphinx = "1.3"
 # Sphinx extension module names and templates location
 sys.path.append(os.path.abspath("_extensions"))
 extensions = [
-	"sphinx_rtd_theme",
-    'sphinx.ext.autosectionlabel',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.intersphinx',
-    'sphinxcontrib.httpdomain',
     'sphinx_tabs.tabs',
-    'sphinx-prompt'
 ]
 
 # Warning when the Sphinx Tabs extension is used with unknown
