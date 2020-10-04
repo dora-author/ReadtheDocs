@@ -22,4 +22,4 @@ See https://www.ingeniumweb.com/blog/post/how-to-install-read-the-docs-in-window
 `$ sphinx-quickstart`
 
 5. Generate HTML file
-'$ make html' 
+`$ make html` 
