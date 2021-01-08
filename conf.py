@@ -40,11 +40,11 @@ source_encoding = "utf-8-sig"
 master_doc = "index"
 
 # General information about the project
-project = "EJKIM-AUTHOR Docs"
+project = "DORA-AUTHOR Docs"
 copyright = (
-    "2020, EJKIM-AUTHOR"
+    "2020, DORA-AUTHOR"
 )
-author = "EunJung Kim"
+author = "Dora"
 
 # Version info for the project, acts as replacement for |version| and |release|
 # The short X.Y version
@@ -62,19 +62,19 @@ if env_tags is not None:
 # Language / i18n
 
 supported_languages = {
-    "en": "EJKIM-AUTHOR (%s) documentation in English",
+    "en": "DORA-AUTHOR (%s) documentation in English",
 #    "de": "Godot Engine (%s) Dokumentation auf Deutsch",
 #    "es": "Documentación de Godot Engine (%s) en español",
 #    "fr": "Documentation de Godot Engine (%s) en français",
 #    "fi": "Godot Engine (%s) dokumentaatio suomeksi",
 #    "it": "Godot Engine (%s) documentazione in italiano",
-    "ja": "EJKIM-AUTHOR (%s)の日本語のドキュメント",
-    "ko": "EJKIM-AUTHOR (%s) 문서 (한국어)",
+    "ja": "DORA-AUTHOR (%s)の日本語のドキュメント",
+    "ko": "DORA-AUTHOR (%s) 문서 (한국어)",
 #   "pl": "Dokumentacja Godot Engine (%s) w języku polskim",
 #    "pt_BR": "Documentação da Godot Engine (%s) em Português Brasileiro",
 #    "ru": "Документация Godot Engine (%s) на русском языке",
 #    "uk": "Документація до Godot Engine (%s) українською мовою",
-    "zh_CN": "EJKIM-AUTHOR (%s) 简体中文文档",
+    "zh_CN": "DORA-AUTHOR (%s) 简体中文文档",
 #    "zh_TW": "Godot Engine (%s) 正體中文 (台灣) 文件",
 }
 
@@ -131,7 +131,7 @@ html_title = supported_languages[language] % version
 # VCS options: https://docs.readthedocs.io/en/latest/vcs.html#github
 html_context = {
     "display_github": not is_i18n,  # Integrate GitHub
-    "github_user": "ejkim-author",  # Username
+    "github_user": "dora-author",  # Username
     "github_repo": "ReadtheDocs",  # Repo name
     "github_version": "master",  # Version
     "conf_py_path": "/",  # Path in the checkout to the docs root
@@ -165,7 +165,7 @@ html_js_files = [
 ]
 
 # Output file base name for HTML help builder
-htmlhelp_basename = "EJKIM-AUTHORdoc"
+htmlhelp_basename = "DORA-AUTHOR doc"
 
 # -- Options for reStructuredText parser ----------------------------------
 
@@ -180,9 +180,9 @@ file_insertion_enabled = False
 latex_documents = [
     (
         master_doc,
-        "EJKIM-AUTHOR.tex",
-        "EJKIM-AUTHOR Documentation",
-        "EunJung Kim",
+        "DORA-AUTHOR.tex",
+        "DORA-AUTHOR Documentation",
+        "Dora",
         "manual",
     ),
 ]
