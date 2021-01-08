@@ -1,24 +1,34 @@
 
-Welcome to EJKIM-AUTHOR's Documentation!
+Welcome to DORA-AUTHOR's Documentation!
 ==============================================
- 
+
  
 **Copyright**
- 2020 EJKIM-AUTHOR all rights reserved.
+ 2020 DORA-AUTHOR all rights reserved.
  All rights reserved including intellectual property rights and all rights of disposal, such as copying and passing on to third parties.
- The contents of this document may not be disclosed to any third party without the prior written consent of EJKIM-AUTHOR.
+ The contents of this document may not be disclosed to any third party without the prior written consent of DORA-AUTHOR.
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: General 
+
+   about/index
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Functional Clusters
+
+   exec/0_execution_management
 
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: General
+   :maxdepth: 1
+   :caption: Tool
 
-
-
-   
-   about/index
+   tool/0_tool
 
 
 .. Indices and tables
