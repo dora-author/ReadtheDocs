@@ -20,7 +20,6 @@ Welcome to DORA-AUTHOR's Documentation!
    :maxdepth: 1
    :caption: Functional Clusters
 
-   exec/0_execution_management
 
 
 
